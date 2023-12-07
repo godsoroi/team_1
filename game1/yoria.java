@@ -14,6 +14,8 @@ public class yoria extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        if( Greenfoot.isKeyDown( "space" ) ){
+            Greenfoot.playSound("yoria.mp3");
+    }
     }    
 }

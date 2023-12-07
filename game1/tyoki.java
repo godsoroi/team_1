@@ -16,4 +16,8 @@ public class tyoki extends Actor
     {
         // Add your action code here.
     }    
+    public tyoki()
+{
+    getImage().scale( 100, 100 );
+}
 }
