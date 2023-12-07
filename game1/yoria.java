@@ -14,8 +14,12 @@ public class yoria extends Actor
      */
     public void act() 
     {
+<<<<<<< HEAD
         if( Greenfoot.isKeyDown( "space" ) ){
             Greenfoot.playSound("yoria.mp3");
     }
+=======
+        
+>>>>>>> 6197168a036365a4bd458ece46cef810fd9040b8
     }    
 }
