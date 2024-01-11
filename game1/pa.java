@@ -16,4 +16,8 @@ public class pa extends Actor
     {
         getImage().scale( 80, 80 );
     }    
+    public pa()
+{
+    getImage().scale( 100, 100 );
+}
 }

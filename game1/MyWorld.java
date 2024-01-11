@@ -8,7 +8,6 @@ import java.util.*;
  */
 public class MyWorld extends World
 {
-
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -17,6 +16,7 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
+<<<<<<< HEAD
         Greenfoot.playSound("freeBGM.mp3");
         addObject( new jogi(), 290, 100 );
         addObject(new gu(),100,300);
@@ -36,3 +36,19 @@ public class MyWorld extends World
     }
 
 }
+=======
+        addObject(new jogi(), 300, 300);
+        addObject(new yoria(), 100, 100);
+        
+    }
+    
+}
+
+
+
+
+
+/*zyanken
+public class 
+*/
+>>>>>>> dc5d098423a7ad3e2367ce3e83ff11b4e9a421d6

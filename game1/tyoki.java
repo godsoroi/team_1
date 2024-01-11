@@ -16,4 +16,8 @@ public class tyoki extends Actor
     {
         getImage().scale( 80, 80 );
     }    
+    public tyoki()
+{
+    getImage().scale( 100, 100 );
+}
 }

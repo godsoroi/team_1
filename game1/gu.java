@@ -16,4 +16,10 @@ public class gu extends Actor
     {
         getImage().scale( 80, 80 );
     }    
+    public gu()
+{
+    getImage().scale( 100, 100 );
 }
+}
+
+
